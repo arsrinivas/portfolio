@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Srinivas Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #000;
+            background: #fff;
+            overflow-x: hidden;
+        }
+        
+        header {
+            background: #f8f8f8;
+            color: black;
+            text-align: center;
+            padding: 20px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+        }
+        
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            background: #e0e0e0;
+            margin: 0;
+        }
+        
+        nav ul li {
+            padding: 15px;
+            transition: transform 0.3s ease;
+        }
+        
+        nav ul li:hover {
+            transform: scale(1.1);
+        }
+        
+        nav ul li a {
+            color: black;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        
+        section {
+            padding: 20px;
+            margin: 20px;
+            background: rgba(0, 0, 0, 0.05);
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            backdrop-filter: blur(10px);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        section:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+        }
+        
+        .profile-pic {
+            display: block;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin: 20px auto;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .profile-pic:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+        }
+        
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #f8f8f8;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>AKKURI RAMAKRISHNA SRINIVAS</h1>
+        <p>Passionate about Technology & Innovation</p>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="file.png" alt="Srinivas" class="profile-pic">
+        <p>I am driven by a strong passion for technology. My goal is to apply my theoretical understanding and hands-on skills to contribute to innovative projects and dynamic environments.</p>
+    </section>
+    
+    <section id="education">
+        <h2>Education</h2>
+        <p>B.Tech in Computer Science and Engineering - KL University, Vijayawada (CGPA: 9.26, 2021-Present)</p>
+    </section>
+    
+    <section id="experience">
+        <h2>Experience</h2>
+        <p><strong>ISRO VSSAC Space Station (Feb 2023)</strong> - Learned about rocket technology and Chandrayaan missions.</p>
+    </section>
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li><strong>Quiz App</strong> - A secure interactive quiz platform using React & AWS Amplify. <a href="https://github.com/arsrinivas/amplify-cognito-quiz" target="_blank">GitHub</a></li>
+            <li><strong>Campus Recruitment System</strong> - A job search platform built with Django.</li>
+        </ul>
+    </section>
+    
+    <section id="skills">
+        <h2>Skills & Certifications</h2>
+        <ul>
+            <li>Programming: C, Java, SQL</li>
+            <li>Tools: AWS Services, Excel, Figma</li>
+            <li>Soft Skills: Communication, Leadership</li>
+            <li>Certifications: AWS Cloud Practitioner, Google Cloud Associate Engineer</li>
+        </ul>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:arsrinivas08@gmail.com">arsrinivas08@gmail.com</a></p>
+        <p>GitHub: <a href="https://github.com/arsrinivas" target="_blank">github.com/arsrinivas</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/akkuri-ramakrishna-srinivas-b4853b247/" target="_blank">LinkedIn Profile</a></p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Srinivas. All rights reserved.</p>
+    </footer>
+</body>
+</html>
